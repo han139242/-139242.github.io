@@ -1,0 +1,62 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>picture/logo.jpg</file>
+        <file>picture/icon.ico</file>
+        <file>picture/dialogback.jpg</file>
+        <file>picture/back.png</file>
+        <file>picture/back2.png</file>
+        <file>picture/password.png</file>
+        <file>picture/user.png</file>
+        <file>picture/loggin.png</file>
+        <file>picture/call.png</file>
+        <file>picture/error.png</file>
+        <file>picture/success.png</file>
+        <file>picture/warning.png</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>picture/Email.png</file>
+        <file>picture/hrManagement.png</file>
+        <file>picture/parkingManagement.png</file>
+        <file>picture/maintenanceManagement.png</file>
+        <file>picture/ownerManagement.png</file>
+        <file>picture/paymentManagement.png</file>
+        <file>picture/attendance.png</file>
+        <file>picture/attendanceRegistration.png</file>
+        <file>picture/leaveRequest.png</file>
+        <file>picture/maintenanceProcess.png</file>
+        <file>picture/ownerManagementItem.png</file>
+        <file>picture/parkingLease.png</file>
+        <file>picture/parkingManagementItem.png</file>
+        <file>picture/paymentRecord.png</file>
+        <file>picture/priceMaintenance.png</file>
+        <file>picture/settingsItem.png</file>
+        <file>picture/updateNewNotice.png</file>
+        <file>picture/warrantyInquiry.png</file>
+    </qresource>
+    <qresource prefix="/icon2">
+        <file>picture/managericon/hrManagement.png</file>
+        <file>picture/managericon/leaveApproval.png</file>
+        <file>picture/managericon/moneyManagement.png</file>
+        <file>picture/managericon/paymentSumSee.png</file>
+        <file>picture/managericon/settingsItem.png</file>
+        <file>picture/managericon/staffManagement.png</file>
+        <file>picture/managericon/systemManagement.png</file>
+        <file>picture/managericon/systemSettings.png</file>
+        <file>picture/managericon/userManagement.png</file>
+    </qresource>
+    <qresource prefix="/icon3">
+        <file>picture/residenticon/faultRepair.png</file>
+        <file>picture/residenticon/maintenanceManagement.png</file>
+        <file>picture/residenticon/myParking.png</file>
+        <file>picture/residenticon/noticeItem.png</file>
+        <file>picture/residenticon/noticeManagement.png</file>
+        <file>picture/residenticon/parkingApplication.png</file>
+        <file>picture/residenticon/parkingManagement.png</file>
+        <file>picture/residenticon/paymentManagement.png</file>
+        <file>picture/residenticon/paymentQuery.png</file>
+        <file>picture/residenticon/repairEvaluation.png</file>
+        <file>picture/residenticon/repairProcess.png</file>
+        <file>picture/residenticon/selfPayment.png</file>
+        <file>picture/residenticon/settingsItem.png</file>
+    </qresource>
+</RCC>
