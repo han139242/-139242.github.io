@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CellWidget</class>
+ <widget class="QWidget" name="CellWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>424</x>
+     <y>89</y>
+     <width>351</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei UI</family>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    background-color: rgba(255, 255, 255, 0); /* 50%透明度的白色背景 */
+    color: #000080; /* 海军蓝文本 */
+    padding: 10px;
+    border-radius: 20px; /* 圆角 */
+    font-weight: bold; /* 粗体 */
+    border: 1px solid rgb(153, 153, 153); /* 黑色边框 */
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../picture.qrc">:/new/prefix1/picture/back2.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>150</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华文彩云</family>
+     <pointsize>24</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#label_2 {
+    background-color: rgba(255, 255, 255, 0); 
+    border-radius: 8px; 
+    padding: 4px 8px; 
+    color: #000080; 
+    font-weight: bold; 
+}</string>
+   </property>
+   <property name="text">
+    <string>智   慧   小   区</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::TextFormat::PlainText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="loginButton">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>400</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华文彩云</family>
+     <pointsize>22</pointsize>
+     <italic>false</italic>
+    </font>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: rgba(255, 255, 255, 20); /* 微调半透明白色背景 */
+    border: 1px solid rgba(255, 255, 255, 30); 
+    color: #000000; /* 黑色字体 */
+    padding: 8px 24px;
+    border-radius: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 50);
+    border-color: rgba(255, 255, 255, 120);
+    color: #000000; /* 悬停时保持黑色字体 */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 70);
+    border-color: rgba(255, 255, 255, 150);
+    color: #000000; /* 按下时保持黑色字体 */
+}</string>
+   </property>
+   <property name="text">
+    <string>登录</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../picture.qrc">
+     <normaloff>:/new/prefix1/picture/loggin.png</normaloff>:/new/prefix1/picture/loggin.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>480</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+}</string>
+   </property>
+   <property name="text">
+    <string>没有账号？请联系物业管理人员</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>700</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华文中宋</family>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../picture.qrc">:/new/prefix1/picture/back.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="userLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>471</x>
+     <y>222</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    /* 透明背景，让背景透出来 */
+    background-color: transparent; 
+    /* 下划线替代传统边框，更简洁 */
+    border: none; 
+    border-bottom: 2px solid #99ccff; 
+    color: #003366;
+    font-size: 14px;
+    padding: 6px 4px;
+    /* 圆角给底部线条一点弧度 */
+    border-radius: 4px; 
+    /* 聚焦时过渡更丝滑 */
+    transition: all 0.3s ease; 
+}
+
+/* QLineEdit 聚焦样式：下划线变色 + 发光效果 */
+QLineEdit:focus {
+    border-bottom: 2px solid #0099ff; 
+    /* 微弱外发光，现代感拉满 */
+    box-shadow: 0 0 8px rgba(0, 153, 255, 0.3); 
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="passwordEdit">
+   <property name="geometry">
+    <rect>
+     <x>471</x>
+     <y>282</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    /* 透明背景，让背景透出来 */
+    background-color: transparent; 
+    /* 下划线替代传统边框，更简洁 */
+    border: none; 
+    border-bottom: 2px solid #99ccff; 
+    color: #003366;
+    font-size: 14px;
+    padding: 6px 4px;
+    /* 圆角给底部线条一点弧度 */
+    border-radius: 4px; 
+    /* 聚焦时过渡更丝滑 */
+    transition: all 0.3s ease; 
+}
+
+/* QLineEdit 聚焦样式：下划线变色 + 发光效果 */
+QLineEdit:focus {
+    border-bottom: 2px solid #0099ff; 
+    /* 微弱外发光，现代感拉满 */
+    box-shadow: 0 0 8px rgba(0, 153, 255, 0.3); 
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>699</x>
+     <y>280</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../picture.qrc">:/new/prefix1/picture/password.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>220</y>
+     <width>28</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../picture.qrc">:/new/prefix1/picture/user.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="userBox">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>340</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/* QComboBox 基础样式：透明背景 + 黑色文字 + 微妙边框 */
+QComboBox {
+    background-color: rgba(255, 255, 255, 30); /* 轻微半透明背景，增强层次感 */
+    color: #000000; /* 黑色文字，确保清晰 */
+    border: 1px solid rgba(0, 0, 0, 30); /* 极细半透明边框，暗示可点击区域 */
+    border-radius: 4px; /* 圆角 */
+    padding: 3px 8px; /* 内边距，让文字不紧贴边缘 */
+    min-height: 22px; /* 最小高度，避免挤压 */
+}
+
+/* 下拉按钮区域 */
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 18px;
+    border-left-width: 1px;
+    border-left-color: rgba(0, 0, 0, 20); /* 左侧分隔线 */
+    border-left-style: solid;
+    background-color: rgba(255, 255, 255, 10); /* 按钮区域更浅的半透明 */
+}
+
+/* 下拉箭头 */
+QComboBox::down-arrow {
+    image: url(:/arrow-down.png); /* 可选：自定义箭头图标 */
+    width: 10px;
+    height: 10px;
+}
+
+/* 下拉列表项 */
+QComboBox QAbstractItemView {
+    background-color: rgba(255, 255, 255, 180); /* 半透明白色背景 */
+    color: #000000; /* 黑色文字 */
+    border: 1px solid rgba(0, 0, 0, 30); /* 边框 */
+    border-radius: 3px;
+    padding: 2px;
+    selection-background-color: rgba(0, 120, 215, 150); /* 选中项半透明蓝色背景 */
+    selection-color: #FFFFFF; /* 选中项白色文字 */
+}
+
+/* 鼠标悬停状态 */
+QComboBox:hover {
+    background-color: rgba(255, 255, 255, 50); /* 悬停时背景透明度降低 */
+    border-color: rgba(0, 120, 215, 50); /* 悬停时边框变蓝色 */
+}
+
+/* 获得焦点状态 */
+QComboBox:focus {
+    border-color: rgba(0, 120, 215, 100); /* 聚焦时边框蓝色加深 */
+}</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>业主</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>物业工作人员</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>物业管理员</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>510</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+}</string>
+   </property>
+   <property name="text">
+    <string>联系方式xxx-xxx-xxxxx</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>479</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../picture.qrc">:/new/prefix1/picture/call.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_7</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_6</zorder>
+  <zorder>loginButton</zorder>
+  <zorder>userLineEdit</zorder>
+  <zorder>passwordEdit</zorder>
+  <zorder>label_4</zorder>
+  <zorder>userBox</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_8</zorder>
+ </widget>
+ <resources>
+  <include location="../picture.qrc"/>
+ </resources>
+ <connections/>
+</ui>
