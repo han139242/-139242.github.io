@@ -1,0 +1,9 @@
+
+
+# Private runtime material stays local
+.env
+.env.local
+*.pem
+*.key
+*.log
+__pycache__/
